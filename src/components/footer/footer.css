@@ -1,0 +1,38 @@
+#footer{
+    /* background-image: url(/test/img/Trường\ đại\ học\ Kinh\ doanh\ và\ Công\ nghệ\ Hà\ Nội.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+.social-container{
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+.social__item:hover{
+    box-shadow: 2px 2px 10px var(--main);
+    transition: all .5s ease;
+}
+.social__item{
+    padding: 10px;
+    font-size: 18px
+}
+.social__item i{
+    padding: 0 10px;
+}
+.dec{
+    background-color: #f5f5f5;
+}
+.dec p{
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+@media(max-width:575px){
+    #footer .container-right{
+        margin-top: 12px;
+    }
+}
